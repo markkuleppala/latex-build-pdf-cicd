@@ -1,5 +1,5 @@
 # latex-build-pdf-cicd
-CI/CD to build Latex pdf and create a release in GitHub. The workflow triggers on push to the repository. Integrates with Overleaf.
+CI/CD to build Latex pdf and create a release in with GitHub Actions. The workflow triggers on push to the repository. Integrates with Overleaf.
 
 ## Why this pipeline?
 
