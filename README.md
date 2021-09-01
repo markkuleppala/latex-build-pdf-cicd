@@ -1,6 +1,10 @@
 # latex-build-pdf-cicd
 CI/CD to build Latex pdf and create a release in GitHub. The workflow triggers on push to the repository. Integrates with Overleaf.
 
+## Why this pipeline?
+
+The CI/CD pipeline integrates with Overleaf's GitHub commit. The automatic building and hosting of the file under static URL help sharing the latest version with peers or academic advisors. This automation cuts the cycle of manual download from Overleaf and uploading to the hosting service.
+
 ## How to use
 
 1. Edit root LaTeX file and working directory in `compile.yml` (currently `main.tex` and `LaTeX`).
