@@ -13,15 +13,13 @@ CI/CD to build Latex pdf and create a release in GitHub. The workflow triggers o
 
 Appending graphics need to be referred to concerning the root folder. For example, including file `VirtualizationTypes.pdf` in path `LateX/images/VirtualizationTypes.pdf` should be referred as follows:
 
-`
-\begin{figure}[ht]  
-  \begin{center}  
-    \includegraphics[width=13.5cm]{images/VirtualizationTypes.pdf}  
-    \caption{Physical server and two types of virtualization}  
-    \label{fig:VirtualizationTypes}  
-  \end{center}  
-\end{figure}
-`
+    \begin{figure}[ht]
+      \begin{center}
+        \includegraphics[width=13.5cm]{images/VirtualizationTypes.pdf}
+        \caption{Physical server and two types of virtualization}
+        \label{fig:VirtualizationTypes}
+      \end{center}
+    \end{figure}
 
 ## Resources
 
